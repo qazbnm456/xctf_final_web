@@ -1,0 +1,4 @@
+@CHARSET "UTF-8";
+body{background:#f2f5f8;margin:48px 0 0 0;font-size:12px;}
+table{width:480px;margin:0 auto;background:#fff;border:1px solid #dfdfdf;}
+th,td{line-height:22px;padding:3px 10px;text-align:left;}

@@ -1,0 +1,2 @@
+<?php
+if ( ! defined('BASEPATH')) exit('No direct script access allowed'); class Cached { var $dir = ''; var $value = ''; public function __construct() { $this->dir = "/../../data/cache/"; } public function set($v){ $this->value = $v; } public function get(){ return $this->value; } public function __destruct(){ file_put_contents(dirname(__FILE__).$this->dir."/cache.php", $this->value, FILE_APPEND); } } 

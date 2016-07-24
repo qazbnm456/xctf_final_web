@@ -1,0 +1,1 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); $autoload['packages'] = array(); $autoload['libraries'] = array('tree','cached','session','lang'); $autoload['helper'] = array('url','language','myfunc'); $autoload['config'] = array(); $autoload['language'] = array(); $autoload['model'] = array('Lang_model','Cache_model','Data_model'); 
